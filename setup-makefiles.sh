@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=berkeley
-export DEVICE_COMMON=kirin970-common
+export DEVICE=figo
+export DEVICE_COMMON=hi6250-common
 export VENDOR=huawei
 
 export INITIAL_COPYRIGHT_YEAR=2018

@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/huawei/berkeley/berkeley-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/figo/figo-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -33,4 +33,4 @@ TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from kirin970-common
-$(call inherit-product, device/huawei/kirin970-common/kirin970.mk)
+$(call inherit-product, device/huawei/hi6250-common/hi6250.mk)
